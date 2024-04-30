@@ -9,14 +9,14 @@ type page struct {
 }
 
 func main(){
-	p:= page{Header:"Fuck you very much", Paragraph:"You're a Bitch"}
+	p:= page{Header:"Hello World", Paragraph:"How's it going"}
 	fmt.Println(p)
 }
 
-func fuckYou(){
-	fmt.Println("Fuck You!")
+func hello(){
+	fmt.Println("Hello")
 }
 
 func main(){
-	fuckYou()
+	hello()
 }
